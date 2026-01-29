@@ -1,0 +1,4 @@
+.gemini/
+.agent/
+brain/
+*.log
