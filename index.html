@@ -8,6 +8,8 @@
     <link rel="stylesheet" href="style.css">
     <link rel="manifest" href="manifest.json">
     <meta name="theme-color" content="#6366f1">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
     <link rel="apple-touch-icon" href="icons/icon-192.png">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -18,7 +20,10 @@
     <div class="glass-container">
         <h1 id="main-greeting" class="fade-in">Hola Mundo</h1>
         <p class="subtitle fade-in-delay">Una experiencia premium para tu próxima gran idea.</p>
-        <button id="action-btn" class="glow-button">¡Haz clic aquí!</button>
+        <div class="button-group">
+            <button id="action-btn" class="glow-button">¡Haz clic aquí!</button>
+            <button id="install-btn" class="secondary-button" style="display: none;">Instalar App</button>
+        </div>
     </div>
     <div class="bg-blobs">
         <div class="blob blob-1"></div>
